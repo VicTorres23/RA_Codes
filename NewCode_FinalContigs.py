@@ -1,7 +1,7 @@
 import regex as re
 import pandas as pd
 
-MasterSequence = pd.read_excel("C:/Users/vemma/Documents/Master in Bioinformatics/Spring_2025_Semester/RA/MasterSequence_Database (06.15.24) (2).xlsx")
+MasterSequence = pd.read_excel("C:/Users/vemma/Downloads/MasterSequence_Database (06.15.24) (4).xlsx")
 counter = 0
 for i in range(len(MasterSequence["#"])):
     MasterSequence["#"][i] = counter
